@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/anthropics/claude-plugins-official",
+  "revision": "ac996c0dde7fb2a9f805cd5277ffc95ecd44a321",
+  "path": "external_plugins/playwright",
+  "source_sha256": "7e74cd1edf3aff5a172935fd535ce15e51b896f01d05566463d7bef471d25cb6",
+  "artifacts": {
+    "command.mjs": "40f9fdecf7e09df54f5d6a942d2a777136ec6af497cc44080babfe2638b1b1a8",
+    "status.mjs": "db08b2ec3d5c5de96b264cb54b90fa34b76a9156d0219d084317a8769b76f118"
+  }
+}
