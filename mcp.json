@@ -3,9 +3,18 @@
   "mcpServers": {
     "playwright": {
       "command": "npx",
+      "env": {
+        "npm_config_cache": "${PLUGIN_DATA}/npm-cache",
+        "npm_config_ignore_scripts": "true",
+        "PLAYWRIGHT_BROWSERS_PATH": "${PLUGIN_DATA}/browsers"
+      },
       "args": [
         "-y",
-        "@playwright/mcp@0.0.83"
+        "@playwright/mcp@0.0.83",
+        "--user-data-dir",
+        "${PLUGIN_DATA}/browser-profile",
+        "--output-dir",
+        "${PLUGIN_DATA}/output"
       ],
       "type": "stdio"
     },
