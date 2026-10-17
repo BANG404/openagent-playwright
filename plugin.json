@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "playwright",
-  "version": "0.1.1",
-  "description": "Browser automation through the Microsoft Playwright MCP server.",
+  "version": "0.1.2",
+  "description": "Let an agent open web pages, click, fill forms, and take browser screenshots with Playwright.",
   "license": "Apache-2.0",
   "homepage": "https://github.com/anthropics/claude-plugins-official/tree/ac996c0dde7fb2a9f805cd5277ffc95ecd44a321/external_plugins/playwright",
   "repository": "https://github.com/BANG404/openagent-playwright",
@@ -43,14 +43,14 @@
         "default_locale": "en",
         "translations": {
           "en": {
-            "display_name": "playwright",
-            "description": "Browser automation through the Microsoft Playwright MCP server.",
+            "display_name": "Playwright Browser Automation",
+            "description": "Let an agent open web pages, click, fill forms, and take browser screenshots with Playwright.",
             "commands.setup.label": "Setup",
             "commands.setup.description": "Review connection prerequisites"
           },
           "zh": {
-            "display_name": "playwright",
-            "description": "通过 Microsoft Playwright MCP 服务自动操作浏览器。",
+            "display_name": "Playwright 浏览器自动化",
+            "description": "让智能体通过 Playwright 打开网页、点击、填写表单和截取浏览器画面。",
             "commands.setup.label": "配置",
             "commands.setup.description": "查看连接要求"
           }

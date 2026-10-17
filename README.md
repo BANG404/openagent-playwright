@@ -1,6 +1,6 @@
-# playwright for OpenAgent
+# Playwright Browser Automation
 
-Browser automation through the Microsoft Playwright MCP server.
+Let an agent open web pages, click, fill forms, and take browser screenshots with Playwright.
 
 Install the release archive through OpenAgent Integrations → Plugins. This is an independent adaptation.
 
@@ -18,7 +18,7 @@ Bundled tests cover immutable artifacts, config conversion and service configura
 
 ## 中文
 
-通过 Microsoft Playwright MCP 服务自动操作浏览器。 安装发布包后运行 /playwright:setup 查看配置要求。凭据和状态保存在当前 OpenAgent 数据目录的 plugin-data/playwright/ 下，修改后刷新插件。
+让智能体通过 Playwright 打开网页、点击、填写表单和截取浏览器画面。 安装发布包后运行 /playwright:setup 查看配置要求。凭据和状态保存在当前 OpenAgent 数据目录的 plugin-data/playwright/ 下，修改后刷新插件。
 
 Upstream source and exact revision are recorded in provenance.json. Bundled source remains available for inspection.
 
